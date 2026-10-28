@@ -13,9 +13,8 @@ vector <user> user_V;
 
 
 int main (){
-   while (true){
-        string command;
-        cin >> command;
+    string command;
+    while (cin >> command){
         if (command == "add_station"){
             add_station();
             continue;
